@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Windows 11 Settings - ReduxFlakes</title>
+    <link rel="stylesheet" href="/main.css" />
+    <link rel="shortcut icon" href="/icons/microsoft.svg" type="image/x-icon" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <div class="main--window">
+      <header class="window--header">
+        <span class="window--header--title">
+          <button class="window--header-back">
+            <ion-icon name="arrow-back-outline"></ion-icon>
+          </button>
+          Definições</span
+        ><button class="window--header--buttons">&#8212;</button
+        ><button class="window--header--buttons">&#9634;</button
+        ><button class="window--header--buttons">&#x2715;</button>
+      </header>
+      <div class="main--window--content">
+        <aside class="window--sidebar">
+          <div class="sidebar--header--user">
+            <img
+              class="user--pfp"
+              src="https://avatars.githubusercontent.com/u/87225951?v=4"
+              alt="User Profile Picture"
+            />
+            <div class="user-metadata">
+              <span class="username">ReduxFlakes</span>
+              <span class="email">fake.email@hotmail.com</span>
+            </div>
+          </div>
+          <div class="search--bar--container">
+            <input
+              type="text"
+              class="search--bar"
+              name="name"
+              placeholder="Procurar uma definição"
+            />
+            <ion-icon name="search-outline"></ion-icon>
+          </div>
+          <ul class="settings--categories--container">
+            <li class="settings--cat--entry settings--cat--entry--active">
+              <img src="/icons/desktop.svg" alt="" /><span>Sistema</span>
+            </li>
+            <li class="settings--cat--entry">
+              <img src="/icons/bluetooth.svg" alt="" /><span
+                >Bluetooth e dispositivos</span
+              >
+            </li>
+            <li class="settings--cat--entry">
+              <img src="/icons/internet.svg" alt="" /><span
+                >Rede e Internet</span
+              >
+            </li>
+            <li class="settings--cat--entry">
+              <img src="/icons/theme.svg" alt="" /><span>Personalização</span>
+            </li>
+            <li class="settings--cat--entry">
+              <img src="/icons/apps.svg" alt="" /><span>Aplicações</span>
+            </li>
+            <li class="settings--cat--entry">
+              <img src="/icons/avatar.svg" alt="" /><span>Contas</span>
+            </li>
+            <li class="settings--cat--entry">
+              <img src="/icons/keyboard.svg" alt="" /><span>Hora e idioma</span>
+            </li>
+            <li class="settings--cat--entry">
+              <img src="/icons/games.svg" alt="" /><span>Jogos</span>
+            </li>
+            <li class="settings--cat--entry">
+              <img src="/icons/accessibility.svg" alt="" /><span
+                >Acessibilidade</span
+              >
+            </li>
+            <li class="settings--cat--entry">
+              <img src="/icons/security.svg" alt="" /><span
+                >Privacidade e segurança</span
+              >
+            </li>
+            <li class="settings--cat--entry">
+              <img src="/icons/update.svg" alt="" /><span>Windows Update</span>
+            </li>
+          </ul>
+        </aside>
+        <main class="winodws--section">
+          <h1>Sistema</h1>
+          <div class="overflow">
+            <div class="hardware--top--section">
+              <div class="computer--sceen"></div>
+              <div class="hardware--info">
+                <h3>DESKTOP-3FG23KLA</h3>
+                <span class="computer--name">Vortus (ASUS P5KPL-AM)</span>
+                <span class="link">Mudar o Nome</span>
+              </div>
+            </div>
+            <div class="quick--actions">
+              <div class="quick--actions--option">
+                <img src="/icons/microsoft.svg" alt="" />
+                <div class="quick--actions--details">
+                  <span><strong>Microsoft 365</strong></span>
+                  <span class="subtle--text">Ver vantagens</span>
+                </div>
+              </div>
+              <div class="quick--actions--option">
+                <img src="/icons/update.svg" alt="" />
+                <div class="quick--actions--details">
+                  <span><strong>Windows Update</strong></span>
+                  <span class="subtle--text"
+                    >Última verificação: há 11 horas</span
+                  >
+                </div>
+              </div>
+            </div>
+            <ul class="cat--options--container">
+              <li class="cat--options">
+                <ion-icon name="laptop-outline"></ion-icon>
+                <div class="cat--option--info--wrapper">
+                  <span class="option--title">Ecrã</span
+                  ><span class="option--desc"
+                    >Monitores, luminosidade, luz noturna, perfil do ecrã</span
+                  >
+                </div>
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+              </li>
+              <li class="cat--options">
+                <ion-icon name="volume-high-outline"></ion-icon>
+                <div class="cat--option--info--wrapper">
+                  <span class="option--title">Som</span
+                  ><span class="option--desc"
+                    >Níveis de volume, saída, entrada, dispositivos de som</span
+                  >
+                </div>
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+              </li>
+              <li class="cat--options">
+                <ion-icon name="notifications-outline"></ion-icon>
+                <div class="cat--option--info--wrapper">
+                  <span class="option--title">Notifcações</span
+                  ><span class="option--desc"
+                    >Alertas de aplicações e sistema, não incomodar</span
+                  >
+                </div>
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+              </li>
+              <li class="cat--options">
+                <ion-icon name="timer-outline"> </ion-icon>
+                <div class="cat--option--info--wrapper">
+                  <span class="option--title">Concentração</span
+                  ><span class="option--desc">Reduzir distrações</span>
+                </div>
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+              </li>
+              <li class="cat--options">
+                <ion-icon name="power-outline"></ion-icon>
+                <div class="cat--option--info--wrapper">
+                  <span class="option--title">Energia e bateria</span
+                  ><span class="option--desc"
+                    >Suspensão, utilização de bateria, poupança de bateria</span
+                  >
+                </div>
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+              </li>
+              <li class="cat--options">
+                <ion-icon name="folder-outline"></ion-icon>
+                <div class="cat--option--info--wrapper">
+                  <span class="option--title">Armazenamento</span
+                  ><span class="option--desc"
+                    >Espaço de armazenamento, discos, regras de
+                    configuração</span
+                  >
+                </div>
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+              </li>
+              <footer>
+                &copy; 2023 - Tiago Carmo | ReduxFlakes - Papirus Pack for icons
+                and ion-icon library for iconography.
+                <a href="">Source Code</a>
+              </footer>
+            </ul>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
